@@ -1,4 +1,0 @@
-set tool_name "ModelSim (Verilog)"
-set corner_file_list {
-	{{"Slow Model"} {1201_2016.vo 1201_2016_v.sdo}}
-}
