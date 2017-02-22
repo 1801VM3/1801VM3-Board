@@ -1,0 +1,249 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'inst47'
+Slack : -15.000
+TNS   : -15.000
+
+Type  : Setup 'Main_CLK'
+Slack : -9.000
+TNS   : -33.000
+
+Type  : Setup 'inst150'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[10]'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[3]'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[4]'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[7]'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[9]'
+Slack : -9.000
+TNS   : -16.000
+
+Type  : Setup 'inst[0]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[11]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[12]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[1]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[2]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[5]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[6]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst[8]'
+Slack : -9.000
+TNS   : -15.500
+
+Type  : Setup 'inst39'
+Slack : -1.500
+TNS   : -1.500
+
+Type  : Setup '100HZ'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Hold '100HZ'
+Slack : -3.500
+TNS   : -3.500
+
+Type  : Hold 'inst39'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst47'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[11]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[12]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[1]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[2]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[5]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[6]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst[8]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Hold 'inst150'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'inst[10]'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'inst[3]'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'inst[4]'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'inst[7]'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'inst[9]'
+Slack : -2.500
+TNS   : -2.500
+
+Type  : Hold 'Main_CLK'
+Slack : 1.500
+TNS   : 0.000
+
+Type  : Recovery 'inst95'
+Slack : -10.000
+TNS   : -10.000
+
+Type  : Recovery 'Main_CLK'
+Slack : -9.500
+TNS   : -38.000
+
+Type  : Removal 'inst95'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Removal 'Main_CLK'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'EX_SYNC'
+Slack : -3.500
+TNS   : -168.000
+
+Type  : Minimum Pulse Width 'Main_CLK'
+Slack : -3.500
+TNS   : -35.000
+
+Type  : Minimum Pulse Width 'inst150'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[0]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[10]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[11]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[12]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[1]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[2]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[3]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[4]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[5]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[6]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[7]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[8]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width 'inst[9]'
+Slack : -3.500
+TNS   : -21.000
+
+Type  : Minimum Pulse Width '100HZ'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'DOUT_VM'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'inst39'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'inst47'
+Slack : -3.500
+TNS   : -7.000
+
+Type  : Minimum Pulse Width 'inst95'
+Slack : -3.500
+TNS   : -7.000
+
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+module 065_control (pult, FR);
+
+output [3:0]FR;
+output pult;
+
+
+always @ (AD_IN or e)
+
+FR = 'b 1001;  //9600
+// FR = 'b 1011;  //38400
+// FR = 'b 1100;  //115200
+pulp = 'b 0;
+
+endmodule

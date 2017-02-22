@@ -1,0 +1,17 @@
+
+State Machine - |1201_2016|UART:inst128|UART_RX:uart_rx_i|rx_pstate
+Name rx_pstate.state_bit_2 rx_pstate.state_bit_1 rx_pstate.state_bit_0 
+rx_pstate.idle 0 0 0 
+rx_pstate.startbit 0 0 1 
+rx_pstate.databits 0 1 0 
+rx_pstate.paritybit 1 0 1 
+rx_pstate.stopbit 0 1 1 
+
+State Machine - |1201_2016|UART:inst128|UART_TX:uart_tx_i|tx_pstate
+Name tx_pstate.state_bit_2 tx_pstate.state_bit_1 tx_pstate.state_bit_0 
+tx_pstate.idle 0 0 0 
+tx_pstate.txsync 0 0 1 
+tx_pstate.startbit 0 1 1 
+tx_pstate.databits 1 0 1 
+tx_pstate.paritybit 1 0 0 
+tx_pstate.stopbit 0 1 0 
